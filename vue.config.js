@@ -7,8 +7,6 @@ module.exports = {
     // Configuration pour les options de production
     productionSourceMap: false, // Désactive les source maps en production
     // Autres configurations personnalisées...
-    publicPath: process.env.NODE_ENV === 'production'
-        ? '/vueapp01/'
-        : '/',
+    publicPath: '/vueapp01/',
     baseUrl: '/vueapp01/'
   };

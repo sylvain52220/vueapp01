@@ -9,5 +9,6 @@ module.exports = {
     // Autres configurations personnalisées...
     publicPath: process.env.NODE_ENV === 'production'
         ? '/vueapp01/'
-        : '/'
+        : '/',
+    baseUrl: '/vueapp01/'
   };

@@ -1,3 +1,3 @@
 module.exports = {
-    baseUrl: '/vueapp01/'
+    publicPath: '/vueapp01/'
 };
